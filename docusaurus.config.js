@@ -32,7 +32,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: undefined,
+          editUrl: 'https://github.com/ajaychinthapalli/devops-notes-site/edit/main/',
         },
         blog: false,
         theme: {
@@ -61,11 +61,39 @@ const config = {
             position: 'left',
             label: 'Notes',
           },
+          {
+            href: 'https://github.com/ajaychinthapalli/devops-notes-site',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
-        links: [],
+        links: [
+          {
+            title: 'Site',
+            items: [
+              {
+                label: 'Notes',
+                to: '/',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/ajaychinthapalli/devops-notes-site',
+              },
+              {
+                label: 'Contributing',
+                href: 'https://github.com/ajaychinthapalli/devops-notes-site/blob/main/CONTRIBUTING.md',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} DevOps Notes.`,
       },
       prism: {

@@ -1,0 +1,22 @@
+# CODEOWNERS
+# Each line is a file pattern followed by one or more owners.
+# Order matters: the last matching pattern takes precedence.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for all files
+* @ajaychinthapalli
+
+# Documentation content
+/docs/ @ajaychinthapalli
+
+# Site configuration
+docusaurus.config.js @ajaychinthapalli
+sidebars.js @ajaychinthapalli
+package.json @ajaychinthapalli
+
+# GitHub Actions workflows
+/.github/workflows/ @ajaychinthapalli
+
+# Contributing & community files
+CONTRIBUTING.md @ajaychinthapalli
+README.md @ajaychinthapalli
