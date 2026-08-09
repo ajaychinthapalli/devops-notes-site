@@ -9,11 +9,13 @@ const config = {
   tagline: 'Visual cheat sheets for Docker, Kubernetes, CI/CD, Linux and more',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-domain.example',
-  baseUrl: '/',
+  url: 'https://ajaychinthapalli.github.io',
+  baseUrl: '/devops-notes-site/',
 
-  organizationName: 'devops-notes',
-  projectName: 'devops-notes',
+  organizationName: 'ajaychinthapalli',
+  projectName: 'devops-notes-site',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
