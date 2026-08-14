@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-cloud/aws/secure-aws-architecture-3-tier-7035" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.2">
+<title data-rh="true">Secure AWS Architecture for a 3-Tier Application | DevOps Notes</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://ajaychinthapalli.github.io/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Secure AWS Architecture for a 3-Tier Application | DevOps Notes"><meta data-rh="true" name="description" content="View original cheat sheet image"><meta data-rh="true" property="og:description" content="View original cheat sheet image"><link data-rh="true" rel="icon" href="/devops-notes-site/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ajaychinthapalli.github.io/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035"><link data-rh="true" rel="alternate" href="https://ajaychinthapalli.github.io/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035" hreflang="en"><link data-rh="true" rel="alternate" href="https://ajaychinthapalli.github.io/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cloud","item":"https://ajaychinthapalli.github.io/devops-notes-site/category/cloud"},{"@type":"ListItem","position":2,"name":"AWS","item":"https://ajaychinthapalli.github.io/devops-notes-site/category/aws"},{"@type":"ListItem","position":3,"name":"Secure AWS Architecture for a 3-Tier Application","item":"https://ajaychinthapalli.github.io/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035"}]}</script><link rel="stylesheet" href="/devops-notes-site/assets/css/styles.b45e5413.css">
+<script src="/devops-notes-site/assets/js/runtime~main.a7a28b23.js" defer="defer"></script>
+<script src="/devops-notes-site/assets/js/main.3576c409.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/devops-notes-site/"><div class="navbar__logo"><img src="/devops-notes-site/img/logo.svg" alt="DevOps Notes Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/devops-notes-site/img/logo.svg" alt="DevOps Notes Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">DevOps Notes</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/devops-notes-site/">Notes</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/ajaychinthapalli/devops-notes-site" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/devops-notes-site/"><span class="linkLabel_WmDU">Welcome</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/docker"><span class="categoryLinkLabel_W154">Docker</span></a><button aria-label="Expand sidebar category &#x27;Docker&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/kubernetes"><span class="categoryLinkLabel_W154">Kubernetes</span></a><button aria-label="Expand sidebar category &#x27;Kubernetes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/cicd"><span class="categoryLinkLabel_W154">CI/CD</span></a><button aria-label="Expand sidebar category &#x27;CI/CD&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/linux"><span class="categoryLinkLabel_W154">Linux</span></a><button aria-label="Expand sidebar category &#x27;Linux&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/git"><span class="categoryLinkLabel_W154">Git</span></a><button aria-label="Expand sidebar category &#x27;Git&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/devops-notes-site/category/cloud"><span class="categoryLinkLabel_W154">Cloud</span></a><button aria-label="Collapse sidebar category &#x27;Cloud&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" tabindex="0" href="/devops-notes-site/category/terraform"><span class="categoryLinkLabel_W154">Terraform</span></a><button aria-label="Expand sidebar category &#x27;Terraform&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" tabindex="0" href="/devops-notes-site/category/aws"><span class="categoryLinkLabel_W154">AWS</span></a><button aria-label="Collapse sidebar category &#x27;AWS&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/devops-notes-site/cloud/aws/aws-devops-explanation-9018"><span class="linkLabel_WmDU">AWS DevOps – Explanation</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/devops-notes-site/cloud/aws/aws-vs-azure-3419"><span class="linkLabel_WmDU">AWS vs Azure</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427"><span class="linkLabel_WmDU">AWS Well-Architected Framework (5 Pillars)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035"><span class="linkLabel_WmDU">Secure AWS Architecture for a 3-Tier Application</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679"><span class="linkLabel_WmDU">AI Copilots for Cloud Engineers — One-Page Guide</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/devops-notes-site/cloud/monolith-vs-microservices-vs-serverless-8411"><span class="linkLabel_WmDU">Monolith vs Microservices vs Serverless</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/monitoring--logging"><span class="categoryLinkLabel_W154">Monitoring &amp; Logging</span></a><button aria-label="Expand sidebar category &#x27;Monitoring &amp; Logging&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/scripting"><span class="categoryLinkLabel_W154">Scripting</span></a><button aria-label="Expand sidebar category &#x27;Scripting&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/devops-notes-site/category/misc"><span class="categoryLinkLabel_W154">Misc</span></a><button aria-label="Expand sidebar category &#x27;Misc&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/devops-notes-site/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/devops-notes-site/category/cloud"><span>Cloud</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/devops-notes-site/category/aws"><span>AWS</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Secure AWS Architecture for a 3-Tier Application</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Secure AWS Architecture for a 3-Tier Application</h1></header>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>View original cheat sheet image</summary><div><div class="collapsibleContent_i85q"><p><img decoding="async" loading="lazy" alt="Original cheat sheet" src="/devops-notes-site/assets/images/1785765697035-1d4dd46ae21dd775f01258d6a101a042.jpeg" width="800" height="1130" class="img_ev3q"></p></div></div></details>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-a-3-tier-architecture">What is a 3-Tier Architecture?<a href="#what-is-a-3-tier-architecture" class="hash-link" aria-label="Direct link to What is a 3-Tier Architecture?" title="Direct link to What is a 3-Tier Architecture?" translate="no">​</a></h2>
+<p>A 3-tier architecture separates an application into three layers:</p>
+<ul>
+<li class=""><strong>Web Tier</strong> (Presentation Layer) – Receives user requests.</li>
+<li class=""><strong>Application Tier</strong> (Business Logic) – Processes requests.</li>
+<li class=""><strong>Database Tier</strong> (Data Layer) – Stores application data.</li>
+</ul>
+<p><strong>Real-World Analogy:</strong> Bank</p>
+<ul>
+<li class="">Customer → Enters the bank (Web Tier)</li>
+<li class="">Bank Employee → Processes transactions (Application Tier)</li>
+<li class="">Vault → Stores money securely (Database Tier)</li>
+</ul>
+<p>Customers never access the vault directly.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vpc-design">VPC Design<a href="#vpc-design" class="hash-link" aria-label="Direct link to VPC Design" title="Direct link to VPC Design" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-public-subnets">1. Public Subnets<a href="#1-public-subnets" class="hash-link" aria-label="Direct link to 1. Public Subnets" title="Direct link to 1. Public Subnets" translate="no">​</a></h3>
+<ul>
+<li class="">Contain: ALB, NAT Gateway, Bastion Host (optional)</li>
+<li class="">Reason: These resources need internet connectivity.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-private-subnets">2. Private Subnets<a href="#2-private-subnets" class="hash-link" aria-label="Direct link to 2. Private Subnets" title="Direct link to 2. Private Subnets" translate="no">​</a></h3>
+<ul>
+<li class="">Contain: Application Servers, ECS Tasks, EKS Worker Nodes, RDS Database</li>
+<li class="">Reason: Backend resources should not be directly accessible from the internet.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="secure-aws-architecture-flow">Secure AWS Architecture (Flow)<a href="#secure-aws-architecture-flow" class="hash-link" aria-label="Direct link to Secure AWS Architecture (Flow)" title="Direct link to Secure AWS Architecture (Flow)" translate="no">​</a></h2>
+<ol>
+<li class="">Internet</li>
+<li class="">Route 53 (DNS)</li>
+<li class="">AWS WAF + Shield</li>
+<li class="">Application Load Balancer (Public Subnets)</li>
+<li class="">EC2 / ECS / EKS – Web Tier (Public Subnets)</li>
+<li class="">Internal ALB (Private Subnets)</li>
+<li class="">Application Tier – EC2 / ECS / EKS (Private Subnets)</li>
+<li class="">Amazon RDS / Aurora (Private Subnets)</li>
+<li class="">AWS Backup &amp; Snapshots</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="security-flow">Security Flow<a href="#security-flow" class="hash-link" aria-label="Direct link to Security Flow" title="Direct link to Security Flow" translate="no">​</a></h2>
+<p>User → HTTPS → Route53 → AWS WAF → AWS Shield → ALB → Web Tier → App Tier → RDS</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="security-components">Security Components<a href="#security-components" class="hash-link" aria-label="Direct link to Security Components" title="Direct link to Security Components" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>Amazon Route 53</strong></p>
+<ul>
+<li class="">DNS management</li>
+<li class="">Health checks</li>
+<li class="">Failover routing</li>
+</ul>
+</li>
+<li class="">
+<p><strong>AWS WAF</strong></p>
+<ul>
+<li class="">Protects against: SQL Injection, Cross-Site Scripting (XSS), Bad bots, Malicious requests.</li>
+<li class="">Analogy: A security guard checking everyone before they enter a building.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>AWS Shield</strong></p>
+<ul>
+<li class="">Provides protection against: DDoS attacks, Network-layer attacks.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Application Load Balancer (ALB)</strong></p>
+<ul>
+<li class="">SSL/TLS termination</li>
+<li class="">Distributes traffic across multiple application instances</li>
+<li class="">Health checks</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Auto Scaling Group</strong></p>
+<ul>
+<li class="">Automatically adds servers during high traffic and removes servers during low traffic.</li>
+<li class="">Benefits: High availability, Cost optimization.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Security Groups</strong></p>
+<ul>
+<li class="">ALB Security Group → Allow HTTPS (443) from Internet</li>
+<li class="">Web Tier → Allow HTTPS only from ALB</li>
+<li class="">App Tier → Allow application port only from Web Tier</li>
+<li class="">Database → Allow MySQL (3306) only from App Tier</li>
+<li class="">Never expose the database to the Internet.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Network ACLs</strong></p>
+<ul>
+<li class="">Provide subnet-level security.</li>
+<li class="">Example: Block unwanted traffic; Allow only required ports.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>IAM</strong></p>
+<ul>
+<li class="">Use IAM Roles instead of access keys.</li>
+<li class="">Examples: EC2 Role, ECS Task Role, Lambda Execution Role.</li>
+<li class="">Follow the Principle of Least Privilege.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Secrets Management</strong></p>
+<ul>
+<li class="">Store: Database passwords, API Keys, Tokens.</li>
+<li class="">Use: AWS Secrets Manager.</li>
+<li class="">Never hardcode credentials in your application.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Database Layer</strong></p>
+<ul>
+<li class="">Use: Amazon RDS or Aurora.</li>
+<li class="">Multi-AZ deployment.</li>
+<li class="">Automated backups.</li>
+<li class="">Encryption at rest and in transit.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Encryption</strong></p>
+<ul>
+<li class="">Use: AWS KMS, EBS Encryption, RDS Encryption, S3 Encryption.</li>
+<li class="">Always use HTTPS/TLS.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Monitoring</strong></p>
+<ul>
+<li class="">Use: Amazon CloudWatch, AWS CloudTrail, AWS GuardDuty, Amazon Inspector.</li>
+<li class="">These services help monitor, audit, and detect threats.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Logging</strong></p>
+<ul>
+<li class="">Store logs in: CloudWatch Logs, Amazon S3.</li>
+<li class="">Enable: ALB Access Logs, VPC Flow Logs, CloudTrail Logs.</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Backup and Disaster Recovery</strong></p>
+<ul>
+<li class="">Use: AWS Backup, RDS Snapshots, Cross-Region Backup (if required).</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-practices">Best Practices<a href="#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
+<ul>
+<li class="">Use Multi-AZ deployments for high availability.</li>
+<li class="">Keep application and database servers in private subnets.</li>
+<li class="">Use IAM Roles instead of long-term access keys.</li>
+<li class="">Enable encryption at rest (KMS) and TLS in transit.</li>
+<li class="">Store secrets in AWS Secrets Manager.</li>
+<li class="">Restrict Security Groups to only required ports and sources.</li>
+<li class="">Enable CloudTrail, GuardDuty, and AWS Config for auditing and threat detection.</li>
+<li class="">Regularly patch operating systems and application dependencies.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="interview-tips">Interview Tips<a href="#interview-tips" class="hash-link" aria-label="Direct link to Interview Tips" title="Direct link to Interview Tips" translate="no">​</a></h2>
+<ul>
+<li class="">Place only the Load Balancer (and other internet-facing components) in public subnets.</li>
+<li class="">Keep Application and Database tiers in private subnets.</li>
+<li class="">Protect internet-facing applications with AWS WAF and AWS Shield.</li>
+<li class="">Use Auto Scaling and Multi-AZ for high availability.</li>
+<li class="">Follow least privilege with IAM.</li>
+<li class="">Never expose the database directly to the internet.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-revision-checklist">Quick Revision Checklist<a href="#quick-revision-checklist" class="hash-link" aria-label="Direct link to Quick Revision Checklist" title="Direct link to Quick Revision Checklist" translate="no">​</a></h2>
+<ul>
+<li class="">Route 53 → DNS</li>
+<li class="">AWS WAF → Web application firewall</li>
+<li class="">AWS Shield → DDoS protection</li>
+<li class="">ALB → Load balancing &amp; SSL termination</li>
+<li class="">Auto Scaling → High availability</li>
+<li class="">Security Groups → Instance-level firewall</li>
+<li class="">IAM Roles → Secure AWS access</li>
+<li class="">Secrets Manager → Store credentials securely</li>
+<li class="">RDS Multi-AZ → Highly available database</li>
+<li class="">CloudWatch + CloudTrail + GuardDuty → Monitoring, auditing &amp; threat detection</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/aws/secure-aws-architecture-3-tier-7035.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">AWS Well-Architected Framework (5 Pillars)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">AI Copilots for Cloud Engineers — One-Page Guide</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#what-is-a-3-tier-architecture" class="table-of-contents__link toc-highlight">What is a 3-Tier Architecture?</a></li><li><a href="#vpc-design" class="table-of-contents__link toc-highlight">VPC Design</a><ul><li><a href="#1-public-subnets" class="table-of-contents__link toc-highlight">1. Public Subnets</a></li><li><a href="#2-private-subnets" class="table-of-contents__link toc-highlight">2. Private Subnets</a></li></ul></li><li><a href="#secure-aws-architecture-flow" class="table-of-contents__link toc-highlight">Secure AWS Architecture (Flow)</a></li><li><a href="#security-flow" class="table-of-contents__link toc-highlight">Security Flow</a></li><li><a href="#security-components" class="table-of-contents__link toc-highlight">Security Components</a></li><li><a href="#best-practices" class="table-of-contents__link toc-highlight">Best Practices</a></li><li><a href="#interview-tips" class="table-of-contents__link toc-highlight">Interview Tips</a></li><li><a href="#quick-revision-checklist" class="table-of-contents__link toc-highlight">Quick Revision Checklist</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Site</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/devops-notes-site/">Notes</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/ajaychinthapalli/devops-notes-site" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/ajaychinthapalli/devops-notes-site/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contributing<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 DevOps Notes.</div></div></div></footer></div>
+</body>
+</html>
