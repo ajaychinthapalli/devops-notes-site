@@ -1,0 +1,26 @@
+{
+  "id": "cloud/terraform/declarative-terraform-vs-imperative-ansible-0189",
+  "title": "Declarative (Terraform) vs Imperative (Ansible)",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189.md",
+  "sourceDirName": "cloud/terraform",
+  "slug": "/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189",
+  "permalink": "/devops-notes-site/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Declarative (Terraform) vs Imperative (Ansible)"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Terraform",
+    "permalink": "/devops-notes-site/category/terraform"
+  },
+  "next": {
+    "title": "Terraform Code to Create an AWS EC2 Instance",
+    "permalink": "/devops-notes-site/cloud/terraform/terraform-aws-ec2-instance-2337"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "/devops-notes-site/-d86": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/devops-notes-site/-7e1": {
+    "__comp": "a7bd4aaa",
+    "__props": "eddae3ed"
+  },
+  "/devops-notes-site/-b16": {
+    "__comp": "a94703ab"
+  },
+  "/devops-notes-site/category/ansible-66c": {
+    "__comp": "14eb3368",
+    "__props": "0624e1e9"
+  },
+  "/devops-notes-site/category/argo-cd-e4d": {
+    "__comp": "14eb3368",
+    "__props": "f88a12a9"
+  },
+  "/devops-notes-site/category/aws-186": {
+    "__comp": "14eb3368",
+    "__props": "c44fcaf9"
+  },
+  "/devops-notes-site/category/cicd-0b4": {
+    "__comp": "14eb3368",
+    "__props": "62eb5111"
+  },
+  "/devops-notes-site/category/cloud-657": {
+    "__comp": "14eb3368",
+    "__props": "96a627ff"
+  },
+  "/devops-notes-site/category/docker-fe3": {
+    "__comp": "14eb3368",
+    "__props": "49be43aa"
+  },
+  "/devops-notes-site/category/git-4f7": {
+    "__comp": "14eb3368",
+    "__props": "27561922"
+  },
+  "/devops-notes-site/category/grafana-e83": {
+    "__comp": "14eb3368",
+    "__props": "6a644961"
+  },
+  "/devops-notes-site/category/helm-222": {
+    "__comp": "14eb3368",
+    "__props": "3133cb3f"
+  },
+  "/devops-notes-site/category/kubernetes-77b": {
+    "__comp": "14eb3368",
+    "__props": "bca12529"
+  },
+  "/devops-notes-site/category/linux-2ba": {
+    "__comp": "14eb3368",
+    "__props": "91b44b11"
+  },
+  "/devops-notes-site/category/misc-6b6": {
+    "__comp": "14eb3368",
+    "__props": "ef5f1d5d"
+  },
+  "/devops-notes-site/category/monitoring--logging-e13": {
+    "__comp": "14eb3368",
+    "__props": "5515e60b"
+  },
+  "/devops-notes-site/category/openshift-290": {
+    "__comp": "14eb3368",
+    "__props": "eaaad976"
+  },
+  "/devops-notes-site/category/prometheus-7ff": {
+    "__comp": "14eb3368",
+    "__props": "b99b8b85"
+  },
+  "/devops-notes-site/category/scripting-e3d": {
+    "__comp": "14eb3368",
+    "__props": "4649920c"
+  },
+  "/devops-notes-site/category/shell-scripting-e0d": {
+    "__comp": "14eb3368",
+    "__props": "2412bd92"
+  },
+  "/devops-notes-site/category/terraform-a1e": {
+    "__comp": "14eb3368",
+    "__props": "c2b9c53b"
+  },
+  "/devops-notes-site/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598-a54": {
+    "__comp": "17896441",
+    "content": "2695e73d"
+  },
+  "/devops-notes-site/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287-c3c": {
+    "__comp": "17896441",
+    "content": "1ce60480"
+  },
+  "/devops-notes-site/ci-cd/argocd/argocd-vs-kubernetes-6432-997": {
+    "__comp": "17896441",
+    "content": "92141313"
+  },
+  "/devops-notes-site/ci-cd/argocd/difficult-rollbacks-in-argo-cd-3297-493": {
+    "__comp": "17896441",
+    "content": "3e126d7e"
+  },
+  "/devops-notes-site/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519-c41": {
+    "__comp": "17896441",
+    "content": "eb89b42f"
+  },
+  "/devops-notes-site/ci-cd/argocd/gitops-with-argo-cd-3315-b24": {
+    "__comp": "17896441",
+    "content": "8a826a28"
+  },
+  "/devops-notes-site/ci-cd/argocd/inconsistent-kubernetes-deployment-in-argo-cd-6393-d40": {
+    "__comp": "17896441",
+    "content": "09067df2"
+  },
+  "/devops-notes-site/ci-cd/argocd/troubleshooting-the-kubernetes-deployment-in-argo-cd-3076-005": {
+    "__comp": "17896441",
+    "content": "ae811ae7"
+  },
+  "/devops-notes-site/ci-cd/argocd/what-problem-argo-cd-solves-5594-496": {
+    "__comp": "17896441",
+    "content": "7ff0ac4a"
+  },
+  "/devops-notes-site/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406-325": {
+    "__comp": "17896441",
+    "content": "79e9e7cd"
+  },
+  "/devops-notes-site/ci-cd/cicd-line-by-line-explanation-2346-0be": {
+    "__comp": "17896441",
+    "content": "5b4b5125"
+  },
+  "/devops-notes-site/ci-cd/cicd-pipeline-github-actions-docker-kubernetes-2236-daf": {
+    "__comp": "17896441",
+    "content": "5a371429"
+  },
+  "/devops-notes-site/ci-cd/deployment-and-ci-cd-failures-in-devops-5930-05b": {
+    "__comp": "17896441",
+    "content": "b014cb2e"
+  },
+  "/devops-notes-site/ci-cd/devsecops-line-by-line-explanation-5772-b69": {
+    "__comp": "17896441",
+    "content": "a8d0b0de"
+  },
+  "/devops-notes-site/ci-cd/secure-cicd-pipeline-stages-3063-369": {
+    "__comp": "17896441",
+    "content": "ecc3d331"
+  },
+  "/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679-ed5": {
+    "__comp": "17896441",
+    "content": "e676fdd1"
+  },
+  "/devops-notes-site/cloud/aws/aws-devops-explanation-9018-bab": {
+    "__comp": "17896441",
+    "content": "38a39b0a"
+  },
+  "/devops-notes-site/cloud/aws/aws-vs-azure-3419-a48": {
+    "__comp": "17896441",
+    "content": "19ff49dd"
+  },
+  "/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427-efb": {
+    "__comp": "17896441",
+    "content": "0cf0523d"
+  },
+  "/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035-c43": {
+    "__comp": "17896441",
+    "content": "ba6be901"
+  },
+  "/devops-notes-site/cloud/monolith-vs-microservices-vs-serverless-8411-5fd": {
+    "__comp": "17896441",
+    "content": "a080b3cf"
+  },
+  "/devops-notes-site/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189-fea": {
+    "__comp": "17896441",
+    "content": "b03bbc1b"
+  },
+  "/devops-notes-site/cloud/terraform/terraform-aws-ec2-instance-2337-f72": {
+    "__comp": "17896441",
+    "content": "c93a6327"
+  },
+  "/devops-notes-site/cloud/terraform/terraform-cheat-sheet-1167-2ba": {
+    "__comp": "17896441",
+    "content": "a22fbc27"
+  },
+  "/devops-notes-site/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608-efe": {
+    "__comp": "17896441",
+    "content": "c98a3e0b"
+  },
+  "/devops-notes-site/docker/docker-cheat-sheet-working-with-dockerfiles-1899-8ec": {
+    "__comp": "17896441",
+    "content": "34c632b1"
+  },
+  "/devops-notes-site/docker/docker-in-one-page-7b7": {
+    "__comp": "17896441",
+    "content": "4466e6eb"
+  },
+  "/devops-notes-site/docker/docker-inspect-and-debug-like-a-pro-4842-65f": {
+    "__comp": "17896441",
+    "content": "98d1b603"
+  },
+  "/devops-notes-site/docker/docker-layers-explained-2501-212": {
+    "__comp": "17896441",
+    "content": "199df40c"
+  },
+  "/devops-notes-site/docker/docker-persistence-networking-and-best-practices-1353-153": {
+    "__comp": "17896441",
+    "content": "d0fbc890"
+  },
+  "/devops-notes-site/docker/docker-vs-podman-5243-235": {
+    "__comp": "17896441",
+    "content": "aa48656f"
+  },
+  "/devops-notes-site/docker/docker-vs-podman-vs-kubernetes-9684-885": {
+    "__comp": "17896441",
+    "content": "185b7edb"
+  },
+  "/devops-notes-site/docker/dockerfile-line-by-line-explanation-6501-9c9": {
+    "__comp": "17896441",
+    "content": "ff55e6d9"
+  },
+  "/devops-notes-site/docker/why-does-my-docker-container-keep-restarting-1783-d7c": {
+    "__comp": "17896441",
+    "content": "dd5553e0"
+  },
+  "/devops-notes-site/git/cherry-pick-vs-revert-in-git-4843-809": {
+    "__comp": "17896441",
+    "content": "cb405364"
+  },
+  "/devops-notes-site/git/git-and-github-3552-fd4": {
+    "__comp": "17896441",
+    "content": "66f72ac9"
+  },
+  "/devops-notes-site/git/git-architecture-1937-73d": {
+    "__comp": "17896441",
+    "content": "dc565883"
+  },
+  "/devops-notes-site/git/git-cherry-pick-3847-41b": {
+    "__comp": "17896441",
+    "content": "aea0a7dd"
+  },
+  "/devops-notes-site/git/git-clone-vs-git-fork-1382-281": {
+    "__comp": "17896441",
+    "content": "a06efe28"
+  },
+  "/devops-notes-site/git/git-fetch-vs-git-pull-3605-24e": {
+    "__comp": "17896441",
+    "content": "8a08ed47"
+  },
+  "/devops-notes-site/git/git-github-branching-strategies-0874-e17": {
+    "__comp": "17896441",
+    "content": "c182aaac"
+  },
+  "/devops-notes-site/git/git-reset-vs-git-revert-6049-202": {
+    "__comp": "17896441",
+    "content": "a404d1d2"
+  },
+  "/devops-notes-site/git/git-stash-vs-git-reset-1499-f95": {
+    "__comp": "17896441",
+    "content": "9eebd503"
+  },
+  "/devops-notes-site/git/merge-vs-rebase-of-git-4274-4f5": {
+    "__comp": "17896441",
+    "content": "2c543ded"
+  },
+  "/devops-notes-site/kubernetes/configmaps-vs-secrets-3462-381": {
+    "__comp": "17896441",
+    "content": "63ebe391"
+  },
+  "/devops-notes-site/kubernetes/docker-compose-to-kubernetes-8222-ff8": {
+    "__comp": "17896441",
+    "content": "f3aa64ea"
+  },
+  "/devops-notes-site/kubernetes/docker-container-vs-kubernetes-pod-4772-f56": {
+    "__comp": "17896441",
+    "content": "aa398764"
+  },
+  "/devops-notes-site/kubernetes/helm-906": {
+    "__comp": "17896441",
+    "content": "3ebf0757"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-architecture-explained-for-beginners-5098-0f7": {
+    "__comp": "17896441",
+    "content": "ab3964e3"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-cheat-sheet-548": {
+    "__comp": "17896441",
+    "content": "aad40c43"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-kubectl-cheat-sheet-9640-764": {
+    "__comp": "17896441",
+    "content": "18978464"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-line-by-line-explanation-7239-9cb": {
+    "__comp": "17896441",
+    "content": "0f61509b"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-rbac-explained-0466-51f": {
+    "__comp": "17896441",
+    "content": "9a680fcb"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-services-0346-d94": {
+    "__comp": "17896441",
+    "content": "0888e657"
+  },
+  "/devops-notes-site/kubernetes/kubernetes-yaml-review-3721-98f": {
+    "__comp": "17896441",
+    "content": "9eb04566"
+  },
+  "/devops-notes-site/kubernetes/multi-cluster-gitops-cab": {
+    "__comp": "17896441",
+    "content": "97284156"
+  },
+  "/devops-notes-site/kubernetes/openshift/application-deployment-on-openshift-6708-27f": {
+    "__comp": "17896441",
+    "content": "3ad1460d"
+  },
+  "/devops-notes-site/kubernetes/openshift/builds-and-image-management-6748-94f": {
+    "__comp": "17896441",
+    "content": "842079c1"
+  },
+  "/devops-notes-site/kubernetes/openshift/openshift-cli-and-web-console-3856-ae6": {
+    "__comp": "17896441",
+    "content": "9511dc93"
+  },
+  "/devops-notes-site/kubernetes/openshift/openshift-installation-7654-9de": {
+    "__comp": "17896441",
+    "content": "2fc3d16f"
+  },
+  "/devops-notes-site/kubernetes/openshift/openshift-networking-9770-959": {
+    "__comp": "17896441",
+    "content": "1d00c2bf"
+  },
+  "/devops-notes-site/kubernetes/openshift/openshift-storage-2330-ee9": {
+    "__comp": "17896441",
+    "content": "db20c4f3"
+  },
+  "/devops-notes-site/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588-d43": {
+    "__comp": "17896441",
+    "content": "11288627"
+  },
+  "/devops-notes-site/kubernetes/secure-kubernetes-cluster-8814-bf3": {
+    "__comp": "17896441",
+    "content": "ee9d308a"
+  },
+  "/devops-notes-site/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171-c9e": {
+    "__comp": "17896441",
+    "content": "192336f9"
+  },
+  "/devops-notes-site/kubernetes/troubleshooting-pod-stuck-pending-3833-6ef": {
+    "__comp": "17896441",
+    "content": "d1285fea"
+  },
+  "/devops-notes-site/linux/linux-architecture-6459-a6f": {
+    "__comp": "17896441",
+    "content": "c8b8831d"
+  },
+  "/devops-notes-site/linux/linux-architecture-8943-8ab": {
+    "__comp": "17896441",
+    "content": "c164fd39"
+  },
+  "/devops-notes-site/linux/linux-distributions-8667-862": {
+    "__comp": "17896441",
+    "content": "41748d7d"
+  },
+  "/devops-notes-site/linux/linux-file-permissions-explained-9556-895": {
+    "__comp": "17896441",
+    "content": "53eb2c5a"
+  },
+  "/devops-notes-site/linux/linux-processes-and-jobs-0085-41d": {
+    "__comp": "17896441",
+    "content": "3dff75ae"
+  },
+  "/devops-notes-site/linux/linux-troubleshooting-quick-guide-5540-6cf": {
+    "__comp": "17896441",
+    "content": "e5f3e625"
+  },
+  "/devops-notes-site/misc/ai-tools-every-devops-engineer-should-know-3552-566": {
+    "__comp": "17896441",
+    "content": "3f924b20"
+  },
+  "/devops-notes-site/misc/devops-resources-cheat-sheet-8609-61f": {
+    "__comp": "17896441",
+    "content": "16d4dc29"
+  },
+  "/devops-notes-site/misc/devops-vs-platform-engineering-6288-7ab": {
+    "__comp": "17896441",
+    "content": "7006e521"
+  },
+  "/devops-notes-site/monitoring-logging/grafana/grafana-cheat-sheet-1956-5a0": {
+    "__comp": "17896441",
+    "content": "7b61400a"
+  },
+  "/devops-notes-site/monitoring-logging/production-incident-response-in-devops-6225-50c": {
+    "__comp": "17896441",
+    "content": "423b1904"
+  },
+  "/devops-notes-site/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414-e37": {
+    "__comp": "17896441",
+    "content": "5c780aa3"
+  },
+  "/devops-notes-site/scripting/ansible/ansible-line-by-line-explanation-8498-63d": {
+    "__comp": "17896441",
+    "content": "911ca600"
+  },
+  "/devops-notes-site/scripting/shell/linux-shell-script-line-by-line-explanation-7815-049": {
+    "__comp": "17896441",
+    "content": "c9ddb380"
+  },
+  "/devops-notes-site/-1d6": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  }
+}

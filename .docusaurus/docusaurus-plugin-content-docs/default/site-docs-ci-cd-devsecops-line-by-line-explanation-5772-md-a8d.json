@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/devsecops-line-by-line-explanation-5772",
+  "title": "DevSecOps — Line-by-Line Explanation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/devsecops-line-by-line-explanation-5772.md",
+  "sourceDirName": "ci-cd",
+  "slug": "/ci-cd/devsecops-line-by-line-explanation-5772",
+  "permalink": "/devops-notes-site/ci-cd/devsecops-line-by-line-explanation-5772",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/devsecops-line-by-line-explanation-5772.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "DevSecOps — Line-by-Line Explanation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Deployment and CI/CD Failures in DevOps",
+    "permalink": "/devops-notes-site/ci-cd/deployment-and-ci-cd-failures-in-devops-5930"
+  },
+  "next": {
+    "title": "Secure CI/CD Pipeline Stages (Notes)",
+    "permalink": "/devops-notes-site/ci-cd/secure-cicd-pipeline-stages-3063"
+  }
+}

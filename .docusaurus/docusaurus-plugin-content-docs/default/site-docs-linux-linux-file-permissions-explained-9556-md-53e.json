@@ -1,0 +1,26 @@
+{
+  "id": "linux/linux-file-permissions-explained-9556",
+  "title": "Linux File Permissions Explained",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/linux/linux-file-permissions-explained-9556.md",
+  "sourceDirName": "linux",
+  "slug": "/linux/linux-file-permissions-explained-9556",
+  "permalink": "/devops-notes-site/linux/linux-file-permissions-explained-9556",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/linux/linux-file-permissions-explained-9556.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linux File Permissions Explained"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Linux Distributions",
+    "permalink": "/devops-notes-site/linux/linux-distributions-8667"
+  },
+  "next": {
+    "title": "Linux Processes and Jobs",
+    "permalink": "/devops-notes-site/linux/linux-processes-and-jobs-0085"
+  }
+}

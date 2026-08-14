@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/argocd/what-problem-argo-cd-solves-5594",
+  "title": "What Problem Argo CD Solves?",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/argocd/what-problem-argo-cd-solves-5594.md",
+  "sourceDirName": "ci-cd/argocd",
+  "slug": "/ci-cd/argocd/what-problem-argo-cd-solves-5594",
+  "permalink": "/devops-notes-site/ci-cd/argocd/what-problem-argo-cd-solves-5594",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/argocd/what-problem-argo-cd-solves-5594.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "What Problem Argo CD Solves?"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Troubleshooting the Kubernetes Deployment in Argo CD",
+    "permalink": "/devops-notes-site/ci-cd/argocd/troubleshooting-the-kubernetes-deployment-in-argo-cd-3076"
+  },
+  "next": {
+    "title": "Why Argo CD is Used in DevOps",
+    "permalink": "/devops-notes-site/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406"
+  }
+}

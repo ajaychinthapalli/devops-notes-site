@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/kubernetes-architecture-explained-for-beginners-5098",
+  "title": "Kubernetes Architecture Explained for Beginners",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/kubernetes-architecture-explained-for-beginners-5098.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/kubernetes-architecture-explained-for-beginners-5098",
+  "permalink": "/devops-notes-site/kubernetes/kubernetes-architecture-explained-for-beginners-5098",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/kubernetes-architecture-explained-for-beginners-5098.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kubernetes Architecture Explained for Beginners"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Container vs Kubernetes Pod",
+    "permalink": "/devops-notes-site/kubernetes/docker-container-vs-kubernetes-pod-4772"
+  },
+  "next": {
+    "title": "Kubernetes Cheat Sheet",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-cheat-sheet"
+  }
+}

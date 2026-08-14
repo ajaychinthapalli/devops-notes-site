@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-inspect-and-debug-like-a-pro-4842",
+  "title": "Docker Inspect & Debug Like a Pro",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-inspect-and-debug-like-a-pro-4842.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-inspect-and-debug-like-a-pro-4842",
+  "permalink": "/devops-notes-site/docker/docker-inspect-and-debug-like-a-pro-4842",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-inspect-and-debug-like-a-pro-4842.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Inspect & Debug Like a Pro"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker in One Page",
+    "permalink": "/devops-notes-site/docker/docker-in-one-page"
+  },
+  "next": {
+    "title": "Docker Layers Explained",
+    "permalink": "/devops-notes-site/docker/docker-layers-explained-2501"
+  }
+}

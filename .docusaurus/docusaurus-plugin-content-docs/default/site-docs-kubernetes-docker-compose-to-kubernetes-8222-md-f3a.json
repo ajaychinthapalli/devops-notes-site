@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/docker-compose-to-kubernetes-8222",
+  "title": "Docker Compose to Kubernetes",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/docker-compose-to-kubernetes-8222.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/docker-compose-to-kubernetes-8222",
+  "permalink": "/devops-notes-site/kubernetes/docker-compose-to-kubernetes-8222",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/docker-compose-to-kubernetes-8222.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Compose to Kubernetes"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "ConfigMaps vs Secrets",
+    "permalink": "/devops-notes-site/kubernetes/configmaps-vs-secrets-3462"
+  },
+  "next": {
+    "title": "Docker Container vs Kubernetes Pod",
+    "permalink": "/devops-notes-site/kubernetes/docker-container-vs-kubernetes-pod-4772"
+  }
+}

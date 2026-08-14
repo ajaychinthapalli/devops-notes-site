@@ -1,0 +1,26 @@
+{
+  "id": "cloud/terraform/terraform-aws-ec2-instance-2337",
+  "title": "Terraform Code to Create an AWS EC2 Instance",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/terraform/terraform-aws-ec2-instance-2337.md",
+  "sourceDirName": "cloud/terraform",
+  "slug": "/cloud/terraform/terraform-aws-ec2-instance-2337",
+  "permalink": "/devops-notes-site/cloud/terraform/terraform-aws-ec2-instance-2337",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/terraform/terraform-aws-ec2-instance-2337.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Terraform Code to Create an AWS EC2 Instance"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Declarative (Terraform) vs Imperative (Ansible)",
+    "permalink": "/devops-notes-site/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189"
+  },
+  "next": {
+    "title": "Terraform Cheat Sheet",
+    "permalink": "/devops-notes-site/cloud/terraform/terraform-cheat-sheet-1167"
+  }
+}

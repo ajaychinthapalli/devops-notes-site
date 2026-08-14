@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608",
+  "title": "Docker Cheat Sheet — Master Docker, Deploy Anywhere",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608",
+  "permalink": "/devops-notes-site/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Cheat Sheet — Master Docker, Deploy Anywhere"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/devops-notes-site/category/docker"
+  },
+  "next": {
+    "title": "Docker Cheat Sheet — Working with Dockerfiles",
+    "permalink": "/devops-notes-site/docker/docker-cheat-sheet-working-with-dockerfiles-1899"
+  }
+}

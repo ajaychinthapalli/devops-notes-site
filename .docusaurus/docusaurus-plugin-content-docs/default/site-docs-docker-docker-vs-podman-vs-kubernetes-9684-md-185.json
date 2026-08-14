@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-vs-podman-vs-kubernetes-9684",
+  "title": "Docker vs Podman vs Kubernetes",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-vs-podman-vs-kubernetes-9684.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-vs-podman-vs-kubernetes-9684",
+  "permalink": "/devops-notes-site/docker/docker-vs-podman-vs-kubernetes-9684",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-vs-podman-vs-kubernetes-9684.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker vs Podman vs Kubernetes"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker vs Podman",
+    "permalink": "/devops-notes-site/docker/docker-vs-podman-5243"
+  },
+  "next": {
+    "title": "Dockerfile Line-by-Line Explanation",
+    "permalink": "/devops-notes-site/docker/dockerfile-line-by-line-explanation-6501"
+  }
+}

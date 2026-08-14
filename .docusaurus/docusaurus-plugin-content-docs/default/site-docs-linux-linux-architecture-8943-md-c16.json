@@ -1,0 +1,26 @@
+{
+  "id": "linux/linux-architecture-8943",
+  "title": "Linux Architecture",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/linux/linux-architecture-8943.md",
+  "sourceDirName": "linux",
+  "slug": "/linux/linux-architecture-8943",
+  "permalink": "/devops-notes-site/linux/linux-architecture-8943",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/linux/linux-architecture-8943.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linux Architecture"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Linux Architecture",
+    "permalink": "/devops-notes-site/linux/linux-architecture-6459"
+  },
+  "next": {
+    "title": "Linux Distributions",
+    "permalink": "/devops-notes-site/linux/linux-distributions-8667"
+  }
+}

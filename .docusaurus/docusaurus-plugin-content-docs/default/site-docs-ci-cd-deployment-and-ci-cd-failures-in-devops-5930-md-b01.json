@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/deployment-and-ci-cd-failures-in-devops-5930",
+  "title": "Deployment and CI/CD Failures in DevOps",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/deployment-and-ci-cd-failures-in-devops-5930.md",
+  "sourceDirName": "ci-cd",
+  "slug": "/ci-cd/deployment-and-ci-cd-failures-in-devops-5930",
+  "permalink": "/devops-notes-site/ci-cd/deployment-and-ci-cd-failures-in-devops-5930",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/deployment-and-ci-cd-failures-in-devops-5930.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Deployment and CI/CD Failures in DevOps"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "CI/CD Pipeline (GitHub Actions + Docker + Kubernetes)",
+    "permalink": "/devops-notes-site/ci-cd/cicd-pipeline-github-actions-docker-kubernetes-2236"
+  },
+  "next": {
+    "title": "DevSecOps — Line-by-Line Explanation",
+    "permalink": "/devops-notes-site/ci-cd/devsecops-line-by-line-explanation-5772"
+  }
+}

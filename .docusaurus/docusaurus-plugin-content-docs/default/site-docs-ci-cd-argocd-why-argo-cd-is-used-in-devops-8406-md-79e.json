@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/argocd/why-argo-cd-is-used-in-devops-8406",
+  "title": "Why Argo CD is Used in DevOps",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406.md",
+  "sourceDirName": "ci-cd/argocd",
+  "slug": "/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406",
+  "permalink": "/devops-notes-site/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Why Argo CD is Used in DevOps"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "What Problem Argo CD Solves?",
+    "permalink": "/devops-notes-site/ci-cd/argocd/what-problem-argo-cd-solves-5594"
+  },
+  "next": {
+    "title": "CI/CD — Line-by-Line Explanation",
+    "permalink": "/devops-notes-site/ci-cd/cicd-line-by-line-explanation-2346"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "git/git-stash-vs-git-reset-1499",
+  "title": "Git Stash vs Git Reset",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/git/git-stash-vs-git-reset-1499.md",
+  "sourceDirName": "git",
+  "slug": "/git/git-stash-vs-git-reset-1499",
+  "permalink": "/devops-notes-site/git/git-stash-vs-git-reset-1499",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/git/git-stash-vs-git-reset-1499.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Git Stash vs Git Reset"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Git Reset vs Git Revert",
+    "permalink": "/devops-notes-site/git/git-reset-vs-git-revert-6049"
+  },
+  "next": {
+    "title": "Merge vs Rebase of Git",
+    "permalink": "/devops-notes-site/git/merge-vs-rebase-of-git-4274"
+  }
+}

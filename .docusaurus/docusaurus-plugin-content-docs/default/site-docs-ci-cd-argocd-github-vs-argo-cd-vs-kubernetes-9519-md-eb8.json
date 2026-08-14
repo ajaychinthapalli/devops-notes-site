@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519",
+  "title": "GitHub vs Argo CD vs Kubernetes",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519.md",
+  "sourceDirName": "ci-cd/argocd",
+  "slug": "/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519",
+  "permalink": "/devops-notes-site/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "GitHub vs Argo CD vs Kubernetes"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Difficult Rollbacks in Argo CD",
+    "permalink": "/devops-notes-site/ci-cd/argocd/difficult-rollbacks-in-argo-cd-3297"
+  },
+  "next": {
+    "title": "GitOps with Argo CD",
+    "permalink": "/devops-notes-site/ci-cd/argocd/gitops-with-argo-cd-3315"
+  }
+}

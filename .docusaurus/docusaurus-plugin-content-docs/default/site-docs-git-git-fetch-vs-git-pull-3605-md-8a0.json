@@ -1,0 +1,26 @@
+{
+  "id": "git/git-fetch-vs-git-pull-3605",
+  "title": "Git Fetch vs Git Pull",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/git/git-fetch-vs-git-pull-3605.md",
+  "sourceDirName": "git",
+  "slug": "/git/git-fetch-vs-git-pull-3605",
+  "permalink": "/devops-notes-site/git/git-fetch-vs-git-pull-3605",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/git/git-fetch-vs-git-pull-3605.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Git Fetch vs Git Pull"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Git Clone vs Git Fork",
+    "permalink": "/devops-notes-site/git/git-clone-vs-git-fork-1382"
+  },
+  "next": {
+    "title": "Git & GitHub Branching Strategies",
+    "permalink": "/devops-notes-site/git/git-github-branching-strategies-0874"
+  }
+}

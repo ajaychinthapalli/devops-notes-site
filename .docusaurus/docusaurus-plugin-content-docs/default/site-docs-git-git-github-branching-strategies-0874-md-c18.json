@@ -1,0 +1,26 @@
+{
+  "id": "git/git-github-branching-strategies-0874",
+  "title": "Git & GitHub Branching Strategies",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/git/git-github-branching-strategies-0874.md",
+  "sourceDirName": "git",
+  "slug": "/git/git-github-branching-strategies-0874",
+  "permalink": "/devops-notes-site/git/git-github-branching-strategies-0874",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/git/git-github-branching-strategies-0874.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Git & GitHub Branching Strategies"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Git Fetch vs Git Pull",
+    "permalink": "/devops-notes-site/git/git-fetch-vs-git-pull-3605"
+  },
+  "next": {
+    "title": "Git Reset vs Git Revert",
+    "permalink": "/devops-notes-site/git/git-reset-vs-git-revert-6049"
+  }
+}

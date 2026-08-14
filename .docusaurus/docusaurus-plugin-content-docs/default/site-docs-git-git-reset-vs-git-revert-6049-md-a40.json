@@ -1,0 +1,26 @@
+{
+  "id": "git/git-reset-vs-git-revert-6049",
+  "title": "Git Reset vs Git Revert",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/git/git-reset-vs-git-revert-6049.md",
+  "sourceDirName": "git",
+  "slug": "/git/git-reset-vs-git-revert-6049",
+  "permalink": "/devops-notes-site/git/git-reset-vs-git-revert-6049",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/git/git-reset-vs-git-revert-6049.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Git Reset vs Git Revert"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Git & GitHub Branching Strategies",
+    "permalink": "/devops-notes-site/git/git-github-branching-strategies-0874"
+  },
+  "next": {
+    "title": "Git Stash vs Git Reset",
+    "permalink": "/devops-notes-site/git/git-stash-vs-git-reset-1499"
+  }
+}

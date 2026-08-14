@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-vs-podman-5243",
+  "title": "Docker vs Podman",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-vs-podman-5243.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-vs-podman-5243",
+  "permalink": "/devops-notes-site/docker/docker-vs-podman-5243",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-vs-podman-5243.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker vs Podman"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Persistence, Networking & Best Practices",
+    "permalink": "/devops-notes-site/docker/docker-persistence-networking-and-best-practices-1353"
+  },
+  "next": {
+    "title": "Docker vs Podman vs Kubernetes",
+    "permalink": "/devops-notes-site/docker/docker-vs-podman-vs-kubernetes-9684"
+  }
+}

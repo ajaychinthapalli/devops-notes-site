@@ -1,0 +1,26 @@
+{
+  "id": "cloud/terraform/terraform-cheat-sheet-1167",
+  "title": "Terraform Cheat Sheet",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/terraform/terraform-cheat-sheet-1167.md",
+  "sourceDirName": "cloud/terraform",
+  "slug": "/cloud/terraform/terraform-cheat-sheet-1167",
+  "permalink": "/devops-notes-site/cloud/terraform/terraform-cheat-sheet-1167",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/terraform/terraform-cheat-sheet-1167.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Terraform Cheat Sheet"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Terraform Code to Create an AWS EC2 Instance",
+    "permalink": "/devops-notes-site/cloud/terraform/terraform-aws-ec2-instance-2337"
+  },
+  "next": {
+    "title": "AWS",
+    "permalink": "/devops-notes-site/category/aws"
+  }
+}

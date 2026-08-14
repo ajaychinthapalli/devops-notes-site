@@ -1,0 +1,26 @@
+{
+  "id": "cloud/monolith-vs-microservices-vs-serverless-8411",
+  "title": "Monolith vs Microservices vs Serverless",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/monolith-vs-microservices-vs-serverless-8411.md",
+  "sourceDirName": "cloud",
+  "slug": "/cloud/monolith-vs-microservices-vs-serverless-8411",
+  "permalink": "/devops-notes-site/cloud/monolith-vs-microservices-vs-serverless-8411",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/monolith-vs-microservices-vs-serverless-8411.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Monolith vs Microservices vs Serverless"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "AI Copilots for Cloud Engineers — One-Page Guide",
+    "permalink": "/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679"
+  },
+  "next": {
+    "title": "Monitoring & Logging",
+    "permalink": "/devops-notes-site/category/monitoring--logging"
+  }
+}

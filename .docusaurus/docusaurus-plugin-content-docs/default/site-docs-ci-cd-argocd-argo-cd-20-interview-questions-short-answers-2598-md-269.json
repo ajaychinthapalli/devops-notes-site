@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598",
+  "title": "Argo CD: 20 Interview Questions & Short Answers",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598.md",
+  "sourceDirName": "ci-cd/argocd",
+  "slug": "/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598",
+  "permalink": "/devops-notes-site/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Argo CD: 20 Interview Questions & Short Answers"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Argo CD",
+    "permalink": "/devops-notes-site/category/argo-cd"
+  },
+  "next": {
+    "title": "Argo CD & GitOps Architecture Explained",
+    "permalink": "/devops-notes-site/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287"
+  }
+}

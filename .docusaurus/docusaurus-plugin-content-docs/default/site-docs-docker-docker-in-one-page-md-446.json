@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-in-one-page",
+  "title": "Docker in One Page",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-in-one-page.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-in-one-page",
+  "permalink": "/devops-notes-site/docker/docker-in-one-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-in-one-page.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker in One Page"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Cheat Sheet — Working with Dockerfiles",
+    "permalink": "/devops-notes-site/docker/docker-cheat-sheet-working-with-dockerfiles-1899"
+  },
+  "next": {
+    "title": "Docker Inspect & Debug Like a Pro",
+    "permalink": "/devops-notes-site/docker/docker-inspect-and-debug-like-a-pro-4842"
+  }
+}

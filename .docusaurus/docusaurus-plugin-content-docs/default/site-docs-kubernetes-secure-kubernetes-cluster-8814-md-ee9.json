@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/secure-kubernetes-cluster-8814",
+  "title": "Secure Kubernetes Cluster",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/secure-kubernetes-cluster-8814.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/secure-kubernetes-cluster-8814",
+  "permalink": "/devops-notes-site/kubernetes/secure-kubernetes-cluster-8814",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/secure-kubernetes-cluster-8814.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Secure Kubernetes Cluster"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Multi-Cluster GitOps Explained",
+    "permalink": "/devops-notes-site/kubernetes/multi-cluster-gitops"
+  },
+  "next": {
+    "title": "Troubleshooting a Kubernetes Pod Stuck in Pending State",
+    "permalink": "/devops-notes-site/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171"
+  }
+}

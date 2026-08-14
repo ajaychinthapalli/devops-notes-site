@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/multi-cluster-gitops",
+  "title": "Multi-Cluster GitOps Explained",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/multi-cluster-gitops.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/multi-cluster-gitops",
+  "permalink": "/devops-notes-site/kubernetes/multi-cluster-gitops",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/multi-cluster-gitops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Multi-Cluster GitOps Explained"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Find Issues in This Kubernetes Manifest",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-yaml-review-3721"
+  },
+  "next": {
+    "title": "Secure Kubernetes Cluster",
+    "permalink": "/devops-notes-site/kubernetes/secure-kubernetes-cluster-8814"
+  }
+}

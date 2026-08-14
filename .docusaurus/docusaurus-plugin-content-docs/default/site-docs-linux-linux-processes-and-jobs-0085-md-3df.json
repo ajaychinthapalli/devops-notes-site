@@ -1,0 +1,26 @@
+{
+  "id": "linux/linux-processes-and-jobs-0085",
+  "title": "Linux Processes and Jobs",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/linux/linux-processes-and-jobs-0085.md",
+  "sourceDirName": "linux",
+  "slug": "/linux/linux-processes-and-jobs-0085",
+  "permalink": "/devops-notes-site/linux/linux-processes-and-jobs-0085",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/linux/linux-processes-and-jobs-0085.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linux Processes and Jobs"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Linux File Permissions Explained",
+    "permalink": "/devops-notes-site/linux/linux-file-permissions-explained-9556"
+  },
+  "next": {
+    "title": "Linux Troubleshooting Quick Guide",
+    "permalink": "/devops-notes-site/linux/linux-troubleshooting-quick-guide-5540"
+  }
+}
