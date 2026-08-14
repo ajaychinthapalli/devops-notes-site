@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-layers-explained-2501",
+  "title": "Docker Layers Explained",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-layers-explained-2501.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-layers-explained-2501",
+  "permalink": "/devops-notes-site/docker/docker-layers-explained-2501",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-layers-explained-2501.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Layers Explained"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Inspect & Debug Like a Pro",
+    "permalink": "/devops-notes-site/docker/docker-inspect-and-debug-like-a-pro-4842"
+  },
+  "next": {
+    "title": "Docker Persistence, Networking & Best Practices",
+    "permalink": "/devops-notes-site/docker/docker-persistence-networking-and-best-practices-1353"
+  }
+}

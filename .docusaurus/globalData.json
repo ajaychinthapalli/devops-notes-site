@@ -1,0 +1,523 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/devops-notes-site/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/devops-notes-site/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598",
+              "path": "/devops-notes-site/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/argocd-and-gitops-architecture-explained-4287",
+              "path": "/devops-notes-site/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/argocd-vs-kubernetes-6432",
+              "path": "/devops-notes-site/ci-cd/argocd/argocd-vs-kubernetes-6432",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/difficult-rollbacks-in-argo-cd-3297",
+              "path": "/devops-notes-site/ci-cd/argocd/difficult-rollbacks-in-argo-cd-3297",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519",
+              "path": "/devops-notes-site/ci-cd/argocd/github-vs-argo-cd-vs-kubernetes-9519",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/gitops-with-argo-cd-3315",
+              "path": "/devops-notes-site/ci-cd/argocd/gitops-with-argo-cd-3315",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/inconsistent-kubernetes-deployment-in-argo-cd-6393",
+              "path": "/devops-notes-site/ci-cd/argocd/inconsistent-kubernetes-deployment-in-argo-cd-6393",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/troubleshooting-the-kubernetes-deployment-in-argo-cd-3076",
+              "path": "/devops-notes-site/ci-cd/argocd/troubleshooting-the-kubernetes-deployment-in-argo-cd-3076",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/what-problem-argo-cd-solves-5594",
+              "path": "/devops-notes-site/ci-cd/argocd/what-problem-argo-cd-solves-5594",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/argocd/why-argo-cd-is-used-in-devops-8406",
+              "path": "/devops-notes-site/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/cicd-line-by-line-explanation-2346",
+              "path": "/devops-notes-site/ci-cd/cicd-line-by-line-explanation-2346",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/cicd-pipeline-github-actions-docker-kubernetes-2236",
+              "path": "/devops-notes-site/ci-cd/cicd-pipeline-github-actions-docker-kubernetes-2236",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/deployment-and-ci-cd-failures-in-devops-5930",
+              "path": "/devops-notes-site/ci-cd/deployment-and-ci-cd-failures-in-devops-5930",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/devsecops-line-by-line-explanation-5772",
+              "path": "/devops-notes-site/ci-cd/devsecops-line-by-line-explanation-5772",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "ci-cd/secure-cicd-pipeline-stages-3063",
+              "path": "/devops-notes-site/ci-cd/secure-cicd-pipeline-stages-3063",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/ai-copilots-for-cloud-engineers-8679",
+              "path": "/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/aws/aws-devops-explanation-9018",
+              "path": "/devops-notes-site/cloud/aws/aws-devops-explanation-9018",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/aws/aws-vs-azure-3419",
+              "path": "/devops-notes-site/cloud/aws/aws-vs-azure-3419",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/aws/aws-well-architected-framework-5-pillars-9427",
+              "path": "/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/aws/secure-aws-architecture-3-tier-7035",
+              "path": "/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/monolith-vs-microservices-vs-serverless-8411",
+              "path": "/devops-notes-site/cloud/monolith-vs-microservices-vs-serverless-8411",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/terraform/declarative-terraform-vs-imperative-ansible-0189",
+              "path": "/devops-notes-site/cloud/terraform/declarative-terraform-vs-imperative-ansible-0189",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/terraform/terraform-aws-ec2-instance-2337",
+              "path": "/devops-notes-site/cloud/terraform/terraform-aws-ec2-instance-2337",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "cloud/terraform/terraform-cheat-sheet-1167",
+              "path": "/devops-notes-site/cloud/terraform/terraform-cheat-sheet-1167",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608",
+              "path": "/devops-notes-site/docker/docker-cheat-sheet-master-docker-deploy-anywhere-0608",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-cheat-sheet-working-with-dockerfiles-1899",
+              "path": "/devops-notes-site/docker/docker-cheat-sheet-working-with-dockerfiles-1899",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-in-one-page",
+              "path": "/devops-notes-site/docker/docker-in-one-page",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-inspect-and-debug-like-a-pro-4842",
+              "path": "/devops-notes-site/docker/docker-inspect-and-debug-like-a-pro-4842",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-layers-explained-2501",
+              "path": "/devops-notes-site/docker/docker-layers-explained-2501",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-persistence-networking-and-best-practices-1353",
+              "path": "/devops-notes-site/docker/docker-persistence-networking-and-best-practices-1353",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-vs-podman-5243",
+              "path": "/devops-notes-site/docker/docker-vs-podman-5243",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/docker-vs-podman-vs-kubernetes-9684",
+              "path": "/devops-notes-site/docker/docker-vs-podman-vs-kubernetes-9684",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/dockerfile-line-by-line-explanation-6501",
+              "path": "/devops-notes-site/docker/dockerfile-line-by-line-explanation-6501",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "docker/why-does-my-docker-container-keep-restarting-1783",
+              "path": "/devops-notes-site/docker/why-does-my-docker-container-keep-restarting-1783",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/cherry-pick-vs-revert-in-git-4843",
+              "path": "/devops-notes-site/git/cherry-pick-vs-revert-in-git-4843",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-and-github-3552",
+              "path": "/devops-notes-site/git/git-and-github-3552",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-architecture-1937",
+              "path": "/devops-notes-site/git/git-architecture-1937",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-cherry-pick-3847",
+              "path": "/devops-notes-site/git/git-cherry-pick-3847",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-clone-vs-git-fork-1382",
+              "path": "/devops-notes-site/git/git-clone-vs-git-fork-1382",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-fetch-vs-git-pull-3605",
+              "path": "/devops-notes-site/git/git-fetch-vs-git-pull-3605",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-github-branching-strategies-0874",
+              "path": "/devops-notes-site/git/git-github-branching-strategies-0874",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-reset-vs-git-revert-6049",
+              "path": "/devops-notes-site/git/git-reset-vs-git-revert-6049",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/git-stash-vs-git-reset-1499",
+              "path": "/devops-notes-site/git/git-stash-vs-git-reset-1499",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "git/merge-vs-rebase-of-git-4274",
+              "path": "/devops-notes-site/git/merge-vs-rebase-of-git-4274",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/devops-notes-site/",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/configmaps-vs-secrets-3462",
+              "path": "/devops-notes-site/kubernetes/configmaps-vs-secrets-3462",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/docker-compose-to-kubernetes-8222",
+              "path": "/devops-notes-site/kubernetes/docker-compose-to-kubernetes-8222",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/docker-container-vs-kubernetes-pod-4772",
+              "path": "/devops-notes-site/kubernetes/docker-container-vs-kubernetes-pod-4772",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/helm/helm",
+              "path": "/devops-notes-site/kubernetes/helm/",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-architecture-explained-for-beginners-5098",
+              "path": "/devops-notes-site/kubernetes/kubernetes-architecture-explained-for-beginners-5098",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-cheat-sheet",
+              "path": "/devops-notes-site/kubernetes/kubernetes-cheat-sheet",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-kubectl-cheat-sheet-9640",
+              "path": "/devops-notes-site/kubernetes/kubernetes-kubectl-cheat-sheet-9640",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-line-by-line-explanation-7239",
+              "path": "/devops-notes-site/kubernetes/kubernetes-line-by-line-explanation-7239",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-rbac-explained-0466",
+              "path": "/devops-notes-site/kubernetes/kubernetes-rbac-explained-0466",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-services-0346",
+              "path": "/devops-notes-site/kubernetes/kubernetes-services-0346",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/kubernetes-yaml-review-3721",
+              "path": "/devops-notes-site/kubernetes/kubernetes-yaml-review-3721",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/multi-cluster-gitops",
+              "path": "/devops-notes-site/kubernetes/multi-cluster-gitops",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/application-deployment-on-openshift-6708",
+              "path": "/devops-notes-site/kubernetes/openshift/application-deployment-on-openshift-6708",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/builds-and-image-management-6748",
+              "path": "/devops-notes-site/kubernetes/openshift/builds-and-image-management-6748",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/openshift-cli-and-web-console-3856",
+              "path": "/devops-notes-site/kubernetes/openshift/openshift-cli-and-web-console-3856",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/openshift-installation-7654",
+              "path": "/devops-notes-site/kubernetes/openshift/openshift-installation-7654",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/openshift-networking-9770",
+              "path": "/devops-notes-site/kubernetes/openshift/openshift-networking-9770",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/openshift-storage-2330",
+              "path": "/devops-notes-site/kubernetes/openshift/openshift-storage-2330",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588",
+              "path": "/devops-notes-site/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/secure-kubernetes-cluster-8814",
+              "path": "/devops-notes-site/kubernetes/secure-kubernetes-cluster-8814",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171",
+              "path": "/devops-notes-site/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "kubernetes/troubleshooting-pod-stuck-pending-3833",
+              "path": "/devops-notes-site/kubernetes/troubleshooting-pod-stuck-pending-3833",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-architecture-6459",
+              "path": "/devops-notes-site/linux/linux-architecture-6459",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-architecture-8943",
+              "path": "/devops-notes-site/linux/linux-architecture-8943",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-distributions-8667",
+              "path": "/devops-notes-site/linux/linux-distributions-8667",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-file-permissions-explained-9556",
+              "path": "/devops-notes-site/linux/linux-file-permissions-explained-9556",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-processes-and-jobs-0085",
+              "path": "/devops-notes-site/linux/linux-processes-and-jobs-0085",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "linux/linux-troubleshooting-quick-guide-5540",
+              "path": "/devops-notes-site/linux/linux-troubleshooting-quick-guide-5540",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "misc/ai-tools-every-devops-engineer-should-know-3552",
+              "path": "/devops-notes-site/misc/ai-tools-every-devops-engineer-should-know-3552",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "misc/devops-resources-cheat-sheet-8609",
+              "path": "/devops-notes-site/misc/devops-resources-cheat-sheet-8609",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "misc/devops-vs-platform-engineering-6288",
+              "path": "/devops-notes-site/misc/devops-vs-platform-engineering-6288",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "monitoring-logging/grafana/grafana-cheat-sheet-1956",
+              "path": "/devops-notes-site/monitoring-logging/grafana/grafana-cheat-sheet-1956",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "monitoring-logging/production-incident-response-in-devops-6225",
+              "path": "/devops-notes-site/monitoring-logging/production-incident-response-in-devops-6225",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414",
+              "path": "/devops-notes-site/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "scripting/ansible/ansible-line-by-line-explanation-8498",
+              "path": "/devops-notes-site/scripting/ansible/ansible-line-by-line-explanation-8498",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "scripting/shell/linux-shell-script-line-by-line-explanation-7815",
+              "path": "/devops-notes-site/scripting/shell/linux-shell-script-line-by-line-explanation-7815",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/docker",
+              "path": "/devops-notes-site/category/docker",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/kubernetes",
+              "path": "/devops-notes-site/category/kubernetes",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/openshift",
+              "path": "/devops-notes-site/category/openshift",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/helm",
+              "path": "/devops-notes-site/category/helm",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/cicd",
+              "path": "/devops-notes-site/category/cicd",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/argo-cd",
+              "path": "/devops-notes-site/category/argo-cd",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/linux",
+              "path": "/devops-notes-site/category/linux",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/git",
+              "path": "/devops-notes-site/category/git",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/cloud",
+              "path": "/devops-notes-site/category/cloud",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/terraform",
+              "path": "/devops-notes-site/category/terraform",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/aws",
+              "path": "/devops-notes-site/category/aws",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/monitoring--logging",
+              "path": "/devops-notes-site/category/monitoring--logging",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/prometheus",
+              "path": "/devops-notes-site/category/prometheus",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/grafana",
+              "path": "/devops-notes-site/category/grafana",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/scripting",
+              "path": "/devops-notes-site/category/scripting",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/ansible",
+              "path": "/devops-notes-site/category/ansible",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/shell-scripting",
+              "path": "/devops-notes-site/category/shell-scripting",
+              "sidebar": "notesSidebar"
+            },
+            {
+              "id": "/category/misc",
+              "path": "/devops-notes-site/category/misc",
+              "sidebar": "notesSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "notesSidebar": {
+              "link": {
+                "path": "/devops-notes-site/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

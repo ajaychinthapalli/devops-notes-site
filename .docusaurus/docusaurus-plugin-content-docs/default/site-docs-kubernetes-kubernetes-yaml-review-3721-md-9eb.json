@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/kubernetes-yaml-review-3721",
+  "title": "Find Issues in This Kubernetes Manifest",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/kubernetes-yaml-review-3721.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/kubernetes-yaml-review-3721",
+  "permalink": "/devops-notes-site/kubernetes/kubernetes-yaml-review-3721",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/kubernetes-yaml-review-3721.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Find Issues in This Kubernetes Manifest"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Kubernetes Services",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-services-0346"
+  },
+  "next": {
+    "title": "Multi-Cluster GitOps Explained",
+    "permalink": "/devops-notes-site/kubernetes/multi-cluster-gitops"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588",
+  "title": "Red Hat OpenShift — Line by Line Explanation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588.md",
+  "sourceDirName": "kubernetes/openshift",
+  "slug": "/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588",
+  "permalink": "/devops-notes-site/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/openshift/red-hat-openshift-line-by-line-explanation-6588.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Red Hat OpenShift — Line by Line Explanation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "OpenShift Storage",
+    "permalink": "/devops-notes-site/kubernetes/openshift/openshift-storage-2330"
+  },
+  "next": {
+    "title": "Helm",
+    "permalink": "/devops-notes-site/category/helm"
+  }
+}

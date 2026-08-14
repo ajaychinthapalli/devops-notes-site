@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/helm/helm",
+  "title": "Helm Cheat Sheet",
+  "description": "<iframe",
+  "source": "@site/docs/kubernetes/helm/helm.md",
+  "sourceDirName": "kubernetes/helm",
+  "slug": "/kubernetes/helm/",
+  "permalink": "/devops-notes-site/kubernetes/helm/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/helm/helm.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Helm Cheat Sheet"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Helm",
+    "permalink": "/devops-notes-site/category/helm"
+  },
+  "next": {
+    "title": "ConfigMaps vs Secrets",
+    "permalink": "/devops-notes-site/kubernetes/configmaps-vs-secrets-3462"
+  }
+}

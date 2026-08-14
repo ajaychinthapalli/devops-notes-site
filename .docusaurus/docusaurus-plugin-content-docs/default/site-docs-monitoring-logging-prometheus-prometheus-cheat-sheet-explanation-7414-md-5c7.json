@@ -1,0 +1,26 @@
+{
+  "id": "monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414",
+  "title": "Prometheus Cheat Sheet Explanation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414.md",
+  "sourceDirName": "monitoring-logging/prometheus",
+  "slug": "/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414",
+  "permalink": "/devops-notes-site/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/monitoring-logging/prometheus/prometheus-cheat-sheet-explanation-7414.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Prometheus Cheat Sheet Explanation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Prometheus",
+    "permalink": "/devops-notes-site/category/prometheus"
+  },
+  "next": {
+    "title": "Grafana",
+    "permalink": "/devops-notes-site/category/grafana"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "misc/devops-vs-platform-engineering-6288",
+  "title": "DevOps vs Platform Engineering",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/misc/devops-vs-platform-engineering-6288.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/devops-vs-platform-engineering-6288",
+  "permalink": "/devops-notes-site/misc/devops-vs-platform-engineering-6288",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/misc/devops-vs-platform-engineering-6288.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "DevOps vs Platform Engineering"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "DevOps Resources Cheat Sheet",
+    "permalink": "/devops-notes-site/misc/devops-resources-cheat-sheet-8609"
+  }
+}

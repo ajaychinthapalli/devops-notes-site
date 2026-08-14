@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/cicd-line-by-line-explanation-2346",
+  "title": "CI/CD — Line-by-Line Explanation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/cicd-line-by-line-explanation-2346.md",
+  "sourceDirName": "ci-cd",
+  "slug": "/ci-cd/cicd-line-by-line-explanation-2346",
+  "permalink": "/devops-notes-site/ci-cd/cicd-line-by-line-explanation-2346",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/cicd-line-by-line-explanation-2346.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "CI/CD — Line-by-Line Explanation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Why Argo CD is Used in DevOps",
+    "permalink": "/devops-notes-site/ci-cd/argocd/why-argo-cd-is-used-in-devops-8406"
+  },
+  "next": {
+    "title": "CI/CD Pipeline (GitHub Actions + Docker + Kubernetes)",
+    "permalink": "/devops-notes-site/ci-cd/cicd-pipeline-github-actions-docker-kubernetes-2236"
+  }
+}

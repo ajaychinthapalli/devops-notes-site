@@ -1,0 +1,26 @@
+{
+  "id": "intro",
+  "title": "Welcome",
+  "description": "A collection of visual cheat sheets covering Docker, Kubernetes, CI/CD, Linux, Git, networking, security, cloud, monitoring, and databases — transcribed from hand-drawn study notes into searchable docs.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/devops-notes-site/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "title": "Welcome",
+    "slug": "/",
+    "sidebar_position": 1
+  },
+  "sidebar": "notesSidebar",
+  "next": {
+    "title": "Docker",
+    "permalink": "/devops-notes-site/category/docker"
+  }
+}

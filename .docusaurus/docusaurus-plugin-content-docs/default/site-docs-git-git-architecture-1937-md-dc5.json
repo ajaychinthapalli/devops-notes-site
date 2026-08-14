@@ -1,0 +1,26 @@
+{
+  "id": "git/git-architecture-1937",
+  "title": "Git Architecture",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/git/git-architecture-1937.md",
+  "sourceDirName": "git",
+  "slug": "/git/git-architecture-1937",
+  "permalink": "/devops-notes-site/git/git-architecture-1937",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/git/git-architecture-1937.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Git Architecture"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Git & GitHub",
+    "permalink": "/devops-notes-site/git/git-and-github-3552"
+  },
+  "next": {
+    "title": "Git Cherry-Pick",
+    "permalink": "/devops-notes-site/git/git-cherry-pick-3847"
+  }
+}

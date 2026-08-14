@@ -1,0 +1,26 @@
+{
+  "id": "docker/why-does-my-docker-container-keep-restarting-1783",
+  "title": "Why Does My Docker Container Keep Restarting?",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/why-does-my-docker-container-keep-restarting-1783.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/why-does-my-docker-container-keep-restarting-1783",
+  "permalink": "/devops-notes-site/docker/why-does-my-docker-container-keep-restarting-1783",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/why-does-my-docker-container-keep-restarting-1783.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Why Does My Docker Container Keep Restarting?"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Dockerfile Line-by-Line Explanation",
+    "permalink": "/devops-notes-site/docker/dockerfile-line-by-line-explanation-6501"
+  },
+  "next": {
+    "title": "Kubernetes",
+    "permalink": "/devops-notes-site/category/kubernetes"
+  }
+}

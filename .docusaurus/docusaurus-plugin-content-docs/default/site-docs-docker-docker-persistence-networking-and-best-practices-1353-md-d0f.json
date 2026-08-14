@@ -1,0 +1,26 @@
+{
+  "id": "docker/docker-persistence-networking-and-best-practices-1353",
+  "title": "Docker Persistence, Networking & Best Practices",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/docker/docker-persistence-networking-and-best-practices-1353.md",
+  "sourceDirName": "docker",
+  "slug": "/docker/docker-persistence-networking-and-best-practices-1353",
+  "permalink": "/devops-notes-site/docker/docker-persistence-networking-and-best-practices-1353",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/docker/docker-persistence-networking-and-best-practices-1353.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Persistence, Networking & Best Practices"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Layers Explained",
+    "permalink": "/devops-notes-site/docker/docker-layers-explained-2501"
+  },
+  "next": {
+    "title": "Docker vs Podman",
+    "permalink": "/devops-notes-site/docker/docker-vs-podman-5243"
+  }
+}

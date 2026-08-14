@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/kubernetes-cheat-sheet",
+  "title": "Kubernetes Cheat Sheet",
+  "description": "<iframe",
+  "source": "@site/docs/kubernetes/kubernetes-cheat-sheet.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/kubernetes-cheat-sheet",
+  "permalink": "/devops-notes-site/kubernetes/kubernetes-cheat-sheet",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/kubernetes-cheat-sheet.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kubernetes Cheat Sheet"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Kubernetes Architecture Explained for Beginners",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-architecture-explained-for-beginners-5098"
+  },
+  "next": {
+    "title": "Kubernetes kubectl Cheat Sheet",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-kubectl-cheat-sheet-9640"
+  }
+}

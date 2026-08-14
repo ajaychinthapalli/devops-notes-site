@@ -1,0 +1,26 @@
+{
+  "id": "linux/linux-troubleshooting-quick-guide-5540",
+  "title": "Linux Troubleshooting Quick Guide",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/linux/linux-troubleshooting-quick-guide-5540.md",
+  "sourceDirName": "linux",
+  "slug": "/linux/linux-troubleshooting-quick-guide-5540",
+  "permalink": "/devops-notes-site/linux/linux-troubleshooting-quick-guide-5540",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/linux/linux-troubleshooting-quick-guide-5540.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linux Troubleshooting Quick Guide"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Linux Processes and Jobs",
+    "permalink": "/devops-notes-site/linux/linux-processes-and-jobs-0085"
+  },
+  "next": {
+    "title": "Git",
+    "permalink": "/devops-notes-site/category/git"
+  }
+}

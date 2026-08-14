@@ -1,0 +1,26 @@
+{
+  "id": "ci-cd/argocd/argocd-and-gitops-architecture-explained-4287",
+  "title": "Argo CD & GitOps Architecture Explained",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287.md",
+  "sourceDirName": "ci-cd/argocd",
+  "slug": "/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287",
+  "permalink": "/devops-notes-site/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/ci-cd/argocd/argocd-and-gitops-architecture-explained-4287.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Argo CD & GitOps Architecture Explained"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Argo CD: 20 Interview Questions & Short Answers",
+    "permalink": "/devops-notes-site/ci-cd/argocd/argo-cd-20-interview-questions-short-answers-2598"
+  },
+  "next": {
+    "title": "ArgoCD vs Kubernetes",
+    "permalink": "/devops-notes-site/ci-cd/argocd/argocd-vs-kubernetes-6432"
+  }
+}

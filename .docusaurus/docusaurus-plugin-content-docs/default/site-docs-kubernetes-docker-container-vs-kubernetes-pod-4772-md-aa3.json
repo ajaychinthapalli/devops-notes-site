@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/docker-container-vs-kubernetes-pod-4772",
+  "title": "Docker Container vs Kubernetes Pod",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/docker-container-vs-kubernetes-pod-4772.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/docker-container-vs-kubernetes-pod-4772",
+  "permalink": "/devops-notes-site/kubernetes/docker-container-vs-kubernetes-pod-4772",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/docker-container-vs-kubernetes-pod-4772.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docker Container vs Kubernetes Pod"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Docker Compose to Kubernetes",
+    "permalink": "/devops-notes-site/kubernetes/docker-compose-to-kubernetes-8222"
+  },
+  "next": {
+    "title": "Kubernetes Architecture Explained for Beginners",
+    "permalink": "/devops-notes-site/kubernetes/kubernetes-architecture-explained-for-beginners-5098"
+  }
+}

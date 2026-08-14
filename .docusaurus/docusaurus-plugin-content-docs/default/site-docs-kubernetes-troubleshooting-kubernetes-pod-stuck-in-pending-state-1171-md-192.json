@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171",
+  "title": "Troubleshooting a Kubernetes Pod Stuck in Pending State",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171.md",
+  "sourceDirName": "kubernetes",
+  "slug": "/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171",
+  "permalink": "/devops-notes-site/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/troubleshooting-kubernetes-pod-stuck-in-pending-state-1171.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Troubleshooting a Kubernetes Pod Stuck in Pending State"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Secure Kubernetes Cluster",
+    "permalink": "/devops-notes-site/kubernetes/secure-kubernetes-cluster-8814"
+  },
+  "next": {
+    "title": "Troubleshooting a Pod Stuck in Pending State",
+    "permalink": "/devops-notes-site/kubernetes/troubleshooting-pod-stuck-pending-3833"
+  }
+}

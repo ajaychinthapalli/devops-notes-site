@@ -1,0 +1,26 @@
+{
+  "id": "scripting/shell/linux-shell-script-line-by-line-explanation-7815",
+  "title": "Linux Shell Script — Line-by-Line Explanation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/scripting/shell/linux-shell-script-line-by-line-explanation-7815.md",
+  "sourceDirName": "scripting/shell",
+  "slug": "/scripting/shell/linux-shell-script-line-by-line-explanation-7815",
+  "permalink": "/devops-notes-site/scripting/shell/linux-shell-script-line-by-line-explanation-7815",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/scripting/shell/linux-shell-script-line-by-line-explanation-7815.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linux Shell Script — Line-by-Line Explanation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "Shell Scripting",
+    "permalink": "/devops-notes-site/category/shell-scripting"
+  },
+  "next": {
+    "title": "Misc",
+    "permalink": "/devops-notes-site/category/misc"
+  }
+}

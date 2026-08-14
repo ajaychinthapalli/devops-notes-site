@@ -1,0 +1,26 @@
+{
+  "id": "kubernetes/openshift/openshift-installation-7654",
+  "title": "OpenShift Installation",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/kubernetes/openshift/openshift-installation-7654.md",
+  "sourceDirName": "kubernetes/openshift",
+  "slug": "/kubernetes/openshift/openshift-installation-7654",
+  "permalink": "/devops-notes-site/kubernetes/openshift/openshift-installation-7654",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/kubernetes/openshift/openshift-installation-7654.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "OpenShift Installation"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "OpenShift CLI & Web Console",
+    "permalink": "/devops-notes-site/kubernetes/openshift/openshift-cli-and-web-console-3856"
+  },
+  "next": {
+    "title": "OpenShift Networking",
+    "permalink": "/devops-notes-site/kubernetes/openshift/openshift-networking-9770"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cloud/aws/aws-vs-azure-3419",
+  "title": "AWS vs Azure",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/aws/aws-vs-azure-3419.md",
+  "sourceDirName": "cloud/aws",
+  "slug": "/cloud/aws/aws-vs-azure-3419",
+  "permalink": "/devops-notes-site/cloud/aws/aws-vs-azure-3419",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/aws/aws-vs-azure-3419.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "AWS vs Azure"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "AWS DevOps – Explanation",
+    "permalink": "/devops-notes-site/cloud/aws/aws-devops-explanation-9018"
+  },
+  "next": {
+    "title": "AWS Well-Architected Framework (5 Pillars)",
+    "permalink": "/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427"
+  }
+}

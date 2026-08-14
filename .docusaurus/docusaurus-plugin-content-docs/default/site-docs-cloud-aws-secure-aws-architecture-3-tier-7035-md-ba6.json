@@ -1,0 +1,26 @@
+{
+  "id": "cloud/aws/secure-aws-architecture-3-tier-7035",
+  "title": "Secure AWS Architecture for a 3-Tier Application",
+  "description": "View original cheat sheet image",
+  "source": "@site/docs/cloud/aws/secure-aws-architecture-3-tier-7035.md",
+  "sourceDirName": "cloud/aws",
+  "slug": "/cloud/aws/secure-aws-architecture-3-tier-7035",
+  "permalink": "/devops-notes-site/cloud/aws/secure-aws-architecture-3-tier-7035",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ajaychinthapalli/devops-notes-site/edit/main/docs/cloud/aws/secure-aws-architecture-3-tier-7035.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Secure AWS Architecture for a 3-Tier Application"
+  },
+  "sidebar": "notesSidebar",
+  "previous": {
+    "title": "AWS Well-Architected Framework (5 Pillars)",
+    "permalink": "/devops-notes-site/cloud/aws/aws-well-architected-framework-5-pillars-9427"
+  },
+  "next": {
+    "title": "AI Copilots for Cloud Engineers — One-Page Guide",
+    "permalink": "/devops-notes-site/cloud/ai-copilots-for-cloud-engineers-8679"
+  }
+}
